@@ -4,5 +4,11 @@ metadata:
   name: config-cm
   namespace: default
 data:
-  key1: value1
-  key2: value2
+  config.properties: |-
+    key1=value1
+    key2=value2
+  game.properties: |-
+    game1=value-game1
+    game2=value-game2
+    game3=value-game3
+
