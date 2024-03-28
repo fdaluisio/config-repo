@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-cm
+  namespace: default
+data:
+  config.properties: |-
+    key1=value-valid1
+    key2=value-valid2
+  game.properties: |-
+    game1=value-game-valid1
+    game2=value-game-valid2
+    game3=value-game-valid3
+
